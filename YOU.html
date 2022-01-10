@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calamine</title>
+        <meta charset="utf-8" lang="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="HONEYCOMB.ico">
+        <link rel="stylesheet" href="">
+        <style>
+            *{box-sizing: border-box;}
+
+            body{background-color: black; opacity: 0.6;}
+            div.pop>div{ display: inline-block; width: 20%; margin-left: 0%; margin-right: 0%; border:2px solid black; background-color: yellowgreen;}
+            div.pop>div>p{text-align: center;}
+            div.pop>div:hover{background-color: red; height: fit-content;}
+            div.pop>div>a>p{text-align: center;}
+            div.pop>div>a:hover{color: gold;}
+            div.moj>div{display: block; margin: 0px 0px; text-align: center;  border-top: 2px solid black;}
+            div.moj>div:hover{background-color: blueviolet;}
+            div.moj>div>a:hover{color: whitesmoke}
+            
+
+        </style>
+        <script></script>
+    </head>
+    <body>
+        <h1 style="float:left; background-color: gray; opacity: 0.75; color: whitesmoke; width:100%; margin: 0px 0px; text-align: center;" id="iu">Welcome To Cala Store</h1>
+        <div title="menubar" style="background-color: pink; float: left; width: 100%; height:fit-content" class="pop" >
+            <div  ><a href="https://tesla.com" target="_blank"><p >GT</p></a></div>
+            <div ><a href="https://tesla.com"><p >GT</p></a></div>
+            <div ><a href="https://tesla.com"><p >GT</p></a></div>
+            <div ><a href="https://tesla.com"><p >GT</p></a></div>
+            <div   style="width: 18%;"><a href="https://tesla.com"><p >GT</p></a></div>
+        </div>
+        <div style="height: fit-content;" id="mk">
+        <div class="moj" style="float: left; width: 15%; background-color: gainsboro; border: 2px solid gray;">
+            <div><a href="https://tesla.com">GT</a></div>
+            <div><a href="https://tesla.com">GT</a></div>
+            <div><a href="https://tesla.com">GT</a></div>
+            <div><a href="https://tesla.com">gt</a></div>
+            <div><a href="https://tesla.com">ft</a></div>
+            <div><a href="https://tesla.com">ji</a></div>
+            <div><a href="https://tesla.com">lo</a></div>
+            <div><a href="https://tesla.com">r</a></div>
+            <div><a href="https://tesla.com">mo</a></div>
+            
+        </div>
+        <div style="float:left; background-color: whitesmoke; width: 85%; border: 2px solid  gray;">
+            <p>Para inside another div</p>
+        </div>
+        </div>
+        
+        <script>
+            window.setTimeout(yt, 1000)
+            function yt(){
+                let r=document.getElementById("iu")
+
+                r.innerText="POP"
+            }
+            
+            
+                let s=document.getElementById("mk")
+
+               let f= s.getElementsByClassName("moj")[0]
+               let w=f.childElementCount
+               for(let i=0; i<w; i++){
+                let q=f.getElementsByTagName("div")[i].getElementsByTagName("a")[0].target="_blank"
+               }
+
+               
+            
+            
+            
+            
+            
+            
+
+
+            
+            
+
+        </script>
+    </body>
+</html>
